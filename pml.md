@@ -1,4 +1,4 @@
-# Excerise in a Goodway
+# Exercise in a Goodway
 
 
 ```r
