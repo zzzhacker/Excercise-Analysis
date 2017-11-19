@@ -1,5 +1,5 @@
 ---
-title: "Excerise in a Goodway"
+title: "Exercise in a Goodway"
 output:
   html_document: 
     keep_md : true

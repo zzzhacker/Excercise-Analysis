@@ -1,4 +1,4 @@
-# Excerise in a Goodway
+# Exercise in a Goodway
 
 
 ```r
@@ -19,10 +19,10 @@ More information is available online [here](http://groupware.les.inf.puc-rio.br/
 
 ```r
 set.seed(3399)
-#urlTraining <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv"
-#urlValidation <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv"
-fullData <- read.csv('pml-training.csv', header = T, na.strings = c("", "NA"))
-validation <- read.csv('pml-testing.csv', header = T, na.strings = c("", "NA"))
+urlTraining <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv"
+urlValidation <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv"
+fullData <- read.csv(urlTraining , header = T, na.strings = c("", "NA"))
+validation <- read.csv(urlValidation, header = T, na.strings = c("", "NA"))
 nzv <- nearZeroVar(fullData,saveMetrics=TRUE)
 ```
 
